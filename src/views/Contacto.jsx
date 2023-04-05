@@ -13,7 +13,7 @@ const Contacto=()=>{
                 <label>Description</label>
                 <input type="text" placeholder="Enter message"></input> 
             </form>
-            <a href="https://github.com/JoseLuisRiquelme/Dynamic-render-React-components/blob/main/public/index.html" className="code" target="_blank" rel="noreferrer">Link to code</a>
+            <a href="https://github.com/JoseLuisRiquelme/React_Router_one" className="code" target="_blank" rel="noreferrer">Link to code</a>
             <img src="https://images.pexels.com/photos/461049/pexels-photo-461049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="hands" className="contactPic"/>
         </div>
     )
