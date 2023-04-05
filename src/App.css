@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    margin: 0;
+    background-color: gainsboro;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.containerNavbar{
+    display: flex;
+    flex-direction: column;
+    border: 0.2px solid gray;
+    margin: 5px;
+    background-color: gray;
+    border-radius: 50px 10px;
+    padding: 3px;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.divLinks{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Alkatra', cursive;  
 }
-
-.App-link {
-  color: #61dafb;
+h2{
+    display: flex;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alkatra', cursive;
 }
+h1{
+    font-family: 'Alkatra', cursive;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 2px solid white;
+    border-radius: 50px 10px;
+    padding: 20px;
+    margin: 5px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+input{
+    border: 2px solid gray;
+    border-radius: 5px;
+    height: 100px;
+}
+.homePic{
+    width: 80vw;
+    border: 5px solid;
+
+
+}
+.divHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactPic{
+    width: 50vw;
+    border: 5px solid;
+    margin-top: 10px;
+}
+.linkHome{
+    color: aqua;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.linkContact{
+    color: yellow;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.icone{
+    margin-right:5px;
+}
+.code{
+    border: 2px solid;
+    padding: 3px;
+    border-radius: 5px;
 }
